@@ -122,7 +122,7 @@ export default function Site() {
             <button className="btn dark rv" onClick={() => book()}>Prendre rendez-vous</button>
           </div>
           <ul className="coords rv">
-            <li><span>Adresse</span><a href={SITE.mapsUrl} target="_blank" rel="noopener noreferrer">Voir sur Google Maps ↗</a></li>
+            <li><span>Adresse</span><a href={SITE.mapsUrl} target="_blank" rel="noopener noreferrer">{SITE.location} <small>Google Maps ↗</small></a></li>
             <li><span>Téléphone</span><a href={`tel:+${SITE.whatsappNumber}`}>{SITE.phoneDisplay}</a></li>
             <li><span>WhatsApp</span><a href={`https://wa.me/${SITE.whatsappNumber}`} target="_blank" rel="noopener noreferrer">Écrire sur WhatsApp</a></li>
             <li><span>Instagram</span><a href={SITE.instagram} target="_blank" rel="noopener noreferrer">@merakimaisondebeaute</a></li>
@@ -134,7 +134,7 @@ export default function Site() {
         <a className="logo" href="#accueil" aria-label="Retourner en haut">Meraki<sup>Alger</sup></a>
         <p>
           {SITE.tagline} ·{" "}
-          <a href={SITE.mapsUrl} target="_blank" rel="noopener noreferrer">{SITE.location} — Voir sur Maps ↗</a>
+          <a href={SITE.mapsUrl} target="_blank" rel="noopener noreferrer">{SITE.location} · Ouvrir Maps ↗</a>
           {" "}· Salon privé pour femmes
         </p>
         <p className="small">© {new Date().getFullYear()} Meraki Alger. Tous droits réservés.</p>

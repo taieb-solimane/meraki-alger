@@ -6,7 +6,7 @@ export const SITE = {
   whatsappNumber: "213551863548",
   phoneDisplay: "+213 551 86 35 48",
   instagram: "https://www.instagram.com/merakimaisondebeaute/",
-  location: "Hydra, Alger",
+  location: "Hydra",
   mapsUrl: "http://google.com/maps/place/Meraki+Maison+de+Beaut%C3%A9/@36.745441,3.0232802,3a,75y/data=!3m8!1e2!3m6!1sCIABIhBz6tEnWM_eytVe6kSj6Qas!2e10!3e12!6shttps:%2F%2Flh3.googleusercontent.com%2Fgrass-cs%2FAABkmLerKVcQlg50e3YEO-aXOfgKHi72NYmtb1vb9Pl5yMRsXAFc_J4oA256febomEeHHMmEqGqLxak23sPi2yopwNlvMoTZuV8lcQdW4BewpaKPipCTGbdMwp804KU_u51zDwUCK1qBpicJlgY%3Dw86-h114-k-no!7i1440!8i1920!4m7!3m6!1s0x128fb360ba57eefd:0x9cf23969727e94a6!8m2!3d36.7454876!4d3.0231293!10e5!16s%2Fg%2F11wh3ln25h?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D",
 };
 
